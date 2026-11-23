@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generated_at": "2026-11-23T03:10:36Z",
- "generated_ts": 1795403436,
+ "generated_at": "2026-11-23T03:10:41Z",
+ "generated_ts": 1795403441,
  "note": "finwatch 机器人现在的线 (4H): 每个区一条代表线。只有价格和时间。",
  "symbols": {
   "BTCUSDT": {
