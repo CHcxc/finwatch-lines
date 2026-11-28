@@ -1,12 +1,12 @@
 {
  "version": 1,
- "generated_at": "2026-11-28T00:05:11Z",
- "generated_ts": 1795824311,
+ "generated_at": "2026-11-28T00:20:36Z",
+ "generated_ts": 1795825236,
  "note": "finwatch 机器人现在的线 (4H): 每个区一条代表线。只有价格和时间。",
  "symbols": {
   "BTCUSDT": {
-   "price": 59802.3,
-   "atr_4h": 1084.6,
+   "price": 59893.4,
+   "atr_4h": 1085.43571429,
    "bar_ts": 1795809600,
    "lines": [
     {
@@ -14,7 +14,7 @@
      "side": "support",
      "kind": "horizontal",
      "seed": false,
-     "touches": 6,
+     "touches": 7,
      "p1": {
       "t": 1782316800,
       "price": 59056.73
@@ -25,10 +25,10 @@
      },
      "slope_per_day": 0.0,
      "zone": [
-      59056.73,
+      58238.2395,
       59690.625
      ],
-     "zone_lines": 4
+     "zone_lines": 7
     },
     {
      "id": 608,
@@ -46,10 +46,10 @@
      },
      "slope_per_day": -647.092,
      "zone": [
-      57817.28,
+      56897.126,
       58401.41833333
      ],
-     "zone_lines": 4
+     "zone_lines": 5
     },
     {
      "id": 1953,
@@ -73,27 +73,6 @@
      "zone_lines": 1
     },
     {
-     "id": 1591,
-     "side": "resistance",
-     "kind": "sloped",
-     "seed": false,
-     "touches": 7,
-     "p1": {
-      "t": 1793232000,
-      "price": 79680.0
-     },
-     "p2": {
-      "t": 1795809600,
-      "price": 60581.26683333
-     },
-     "slope_per_day": -640.181,
-     "zone": [
-      60436.99333333,
-      61184.86333333
-     ],
-     "zone_lines": 4
-    },
-    {
      "id": 1906,
      "side": "resistance",
      "kind": "horizontal",
@@ -109,57 +88,57 @@
      },
      "slope_per_day": 0.0,
      "zone": [
-      61402.1375,
-      62132.52333333
+      60581.26683333,
+      61655.39833333
      ],
      "zone_lines": 6
     },
     {
-     "id": 959,
+     "id": 2478,
      "side": "resistance",
-     "kind": "horizontal",
+     "kind": "sloped",
      "seed": false,
-     "touches": 3,
+     "touches": 7,
      "p1": {
-      "t": 1794700800,
-      "price": 62715.88
+      "t": 1792497600,
+      "price": 83676.24
      },
      "p2": {
       "t": 1795809600,
-      "price": 62715.88
+      "price": 62132.52333333
      },
-     "slope_per_day": 0.0,
+     "slope_per_day": -562.01,
      "zone": [
-      62715.88,
+      61860.08,
       62715.88
      ],
-     "zone_lines": 1
+     "zone_lines": 6
     }
    ]
   },
   "ETHUSDT": {
-   "price": 1658.78,
+   "price": 1661.59,
    "atr_4h": 37.38428571,
    "bar_ts": 1795809600,
    "lines": [
     {
-     "id": 1606,
+     "id": 2566,
      "side": "support",
      "kind": "sloped",
      "seed": false,
-     "touches": 13,
+     "touches": 16,
      "p1": {
-      "t": 1791244800,
-      "price": 2742.754
+      "t": 1790640000,
+      "price": 2708.17908333
      },
      "p2": {
       "t": 1795809600,
-      "price": 1676.47166667
+      "price": 1655.74066667
      },
-     "slope_per_day": -20.182,
+     "slope_per_day": -17.5895,
      "zone": [
       1645.19,
-      1676.47166667
+      1657.16466667
      ],
      "zone_lines": 4
     },
@@ -182,7 +161,7 @@
       1593.03416667,
       1620.184
      ],
-     "zone_lines": 3
+     "zone_lines": 6
     },
     {
      "id": 1019,
@@ -203,54 +182,117 @@
       1673.15,
       1704.42
      ],
-     "zone_lines": 5
+     "zone_lines": 4
+    },
+    {
+     "id": 1606,
+     "side": "resistance",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 12,
+     "p1": {
+      "t": 1790928000,
+      "price": 2761.28041667
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 1732.27416667
+     },
+     "slope_per_day": -18.2125,
+     "zone": [
+      1720.99,
+      1732.27416667
+     ],
+     "zone_lines": 2
     }
    ]
   },
   "SOLUSDT": {
-   "price": 71.473,
+   "price": 71.624,
    "atr_4h": 1.56728571,
    "bar_ts": 1795809600,
    "lines": [
     {
-     "id": 2114,
+     "id": 2587,
      "side": "support",
      "kind": "sloped",
      "seed": false,
-     "touches": 8,
+     "touches": 3,
      "p1": {
-      "t": 1791216000,
-      "price": 118.003
+      "t": 1795233600,
+      "price": 65.5395
      },
      "p2": {
       "t": 1795809600,
-      "price": 69.0365
+      "price": 71.48616667
      },
-     "slope_per_day": -0.921,
+     "slope_per_day": 0.892,
      "zone": [
-      68.529,
-      69.952
+      71.48616667,
+      71.48616667
+     ],
+     "zone_lines": 1
+    },
+    {
+     "id": 2491,
+     "side": "support",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 9,
+     "p1": {
+      "t": 1790640000,
+      "price": 116.774
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 69.44583333
+     },
+     "slope_per_day": -0.791,
+     "zone": [
+      68.97166667,
+      69.95
      ],
      "zone_lines": 8
     },
     {
-     "id": 1372,
-     "side": "resistance",
+     "id": 2534,
+     "side": "support",
      "kind": "horizontal",
      "seed": false,
-     "touches": 10,
+     "touches": 4,
      "p1": {
-      "t": 1784923200,
-      "price": 72.53
+      "t": 1781798400,
+      "price": 68.187
      },
      "p2": {
       "t": 1795809600,
-      "price": 72.53
+      "price": 68.187
      },
      "slope_per_day": 0.0,
      "zone": [
-      72.22233333,
-      73.551
+      68.187,
+      68.187
+     ],
+     "zone_lines": 1
+    },
+    {
+     "id": 2592,
+     "side": "resistance",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 12,
+     "p1": {
+      "t": 1790409600,
+      "price": 120.0335
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 71.846
+     },
+     "slope_per_day": -0.771,
+     "zone": [
+      71.846,
+      72.53
      ],
      "zone_lines": 3
     },
@@ -262,26 +304,47 @@
      "touches": 12,
      "p1": {
       "t": 1781654400,
-      "price": 74.582
+      "price": 74.482
      },
      "p2": {
       "t": 1795809600,
-      "price": 74.582
+      "price": 74.482
      },
      "slope_per_day": 0.0,
      "zone": [
-      74.582,
-      74.582
+      73.472,
+      74.77283333
      ],
-     "zone_lines": 1
+     "zone_lines": 6
     }
    ]
   },
   "NVDAUSDT": {
-   "price": 148.83,
+   "price": 149.25,
    "atr_4h": 4.24428571,
    "bar_ts": 1795809600,
    "lines": [
+    {
+     "id": 1187,
+     "side": "support",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 6,
+     "p1": {
+      "t": 1792670400,
+      "price": 220.66066667
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 146.032
+     },
+     "slope_per_day": -2.054,
+     "zone": [
+      146.032,
+      147.69675
+     ],
+     "zone_lines": 2
+    },
     {
      "id": 2485,
      "side": "support",
@@ -299,9 +362,9 @@
      "slope_per_day": -2.152,
      "zone": [
       143.94066667,
-      146.032
+      144.29133333
      ],
-     "zone_lines": 3
+     "zone_lines": 2
     },
     {
      "id": 1812,
@@ -319,17 +382,17 @@
      },
      "slope_per_day": -1.853,
      "zone": [
-      149.96,
+      149.906,
       151.889
      ],
-     "zone_lines": 4
+     "zone_lines": 5
     },
     {
      "id": 1813,
      "side": "resistance",
      "kind": "sloped",
      "seed": false,
-     "touches": 6,
+     "touches": 7,
      "p1": {
       "t": 1791345600,
       "price": 242.48016667
@@ -348,30 +411,51 @@
    ]
   },
   "AMDUSDT": {
-   "price": 423.5,
+   "price": 423.79,
    "atr_4h": 13.23571429,
    "bar_ts": 1795809600,
    "lines": [
     {
-     "id": 2001,
+     "id": 1727,
      "side": "support",
      "kind": "sloped",
      "seed": false,
-     "touches": 13,
+     "touches": 5,
      "p1": {
-      "t": 1790438400,
-      "price": 618.757
+      "t": 1794499200,
+      "price": 590.67
      },
      "p2": {
       "t": 1795809600,
-      "price": 401.298
+      "price": 424.81491667
      },
-     "slope_per_day": -3.498,
+     "slope_per_day": -10.9355,
      "zone": [
-      401.298,
-      412.68883333
+      412.68883333,
+      424.81491667
      ],
-     "zone_lines": 3
+     "zone_lines": 2
+    },
+    {
+     "id": 2500,
+     "side": "support",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 9,
+     "p1": {
+      "t": 1794585600,
+      "price": 518.56283333
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 401.84366667
+     },
+     "slope_per_day": -8.239,
+     "zone": [
+      401.84366667,
+      403.84
+     ],
+     "zone_lines": 2
     },
     {
      "id": 2123,
@@ -392,7 +476,7 @@
       426.52666667,
       438.76
      ],
-     "zone_lines": 6
+     "zone_lines": 7
     },
     {
      "id": 724,
@@ -418,25 +502,25 @@
    ]
   },
   "SKHYNIXUSDT": {
-   "price": 830.38,
+   "price": 831.91,
    "atr_4h": 26.49714286,
    "bar_ts": 1795809600,
    "lines": [
     {
-     "id": 1240,
+     "id": 2035,
      "side": "support",
      "kind": "sloped",
      "seed": false,
-     "touches": 5,
+     "touches": 6,
      "p1": {
-      "t": 1793592000,
-      "price": 1106.43
+      "t": 1792339200,
+      "price": 893.253
      },
      "p2": {
       "t": 1795809600,
-      "price": 819.99
+      "price": 809.82683333
      },
-     "slope_per_day": -11.16,
+     "slope_per_day": -2.077,
      "zone": [
       809.82683333,
       829.51383333
@@ -459,17 +543,17 @@
      },
      "slope_per_day": -9.258,
      "zone": [
-      782.62166667,
+      795.60566667,
       799.36166667
      ],
-     "zone_lines": 6
+     "zone_lines": 5
     },
     {
      "id": 2275,
      "side": "resistance",
      "kind": "sloped",
      "seed": false,
-     "touches": 7,
+     "touches": 8,
      "p1": {
       "t": 1790035200,
       "price": 1413.467
@@ -480,45 +564,45 @@
      },
      "slope_per_day": -8.574,
      "zone": [
-      840.438,
+      838.61133333,
       854.17
      ],
-     "zone_lines": 3
+     "zone_lines": 6
     }
    ]
   },
   "INTCUSDT": {
-   "price": 57.01,
+   "price": 57.11,
    "atr_4h": 1.57214286,
    "bar_ts": 1795809600,
    "lines": [
     {
-     "id": 2252,
+     "id": 2572,
      "side": "support",
-     "kind": "sloped",
+     "kind": "horizontal",
      "seed": false,
      "touches": 5,
      "p1": {
-      "t": 1793980800,
-      "price": 56.939
+      "t": 1793750400,
+      "price": 56.3415
      },
      "p2": {
       "t": 1795809600,
-      "price": 56.4945
+      "price": 56.3415
      },
-     "slope_per_day": -0.021,
+     "slope_per_day": 0.0,
      "zone": [
       56.05216667,
-      56.4945
+      57.01
      ],
-     "zone_lines": 3
+     "zone_lines": 4
     },
     {
      "id": 1912,
      "side": "support",
      "kind": "sloped",
      "seed": false,
-     "touches": 4,
+     "touches": 5,
      "p1": {
       "t": 1793908800,
       "price": 50.965
@@ -529,57 +613,57 @@
      },
      "slope_per_day": 0.192,
      "zone": [
-      54.51833333,
+      54.356,
       55.189
      ],
-     "zone_lines": 3
+     "zone_lines": 4
     },
     {
-     "id": 2020,
+     "id": 2570,
      "side": "resistance",
      "kind": "horizontal",
      "seed": false,
-     "touches": 5,
+     "touches": 6,
      "p1": {
-      "t": 1793980800,
-      "price": 57.48
+      "t": 1794254400,
+      "price": 58.9495
      },
      "p2": {
       "t": 1795809600,
-      "price": 57.48
+      "price": 58.9495
      },
      "slope_per_day": 0.0,
      "zone": [
-      57.01,
-      57.81583333
+      57.48,
+      58.9495
      ],
      "zone_lines": 3
     },
     {
-     "id": 2421,
+     "id": 1609,
      "side": "resistance",
      "kind": "sloped",
      "seed": false,
-     "touches": 5,
+     "touches": 4,
      "p1": {
-      "t": 1793980800,
-      "price": 56.48866667
+      "t": 1793448000,
+      "price": 65.265
      },
      "p2": {
       "t": 1795809600,
-      "price": 60.12933333
+      "price": 59.49766667
      },
-     "slope_per_day": 0.172,
+     "slope_per_day": -0.211,
      "zone": [
       59.49766667,
-      60.12933333
+      59.49766667
      ],
-     "zone_lines": 2
+     "zone_lines": 1
     }
    ]
   },
   "ANTUSDT": {
-   "price": 91.1,
+   "price": 91.09,
    "atr_4h": 3.01357143,
    "bar_ts": 1795809600,
    "lines": [
@@ -603,11 +687,32 @@
       87.99433333
      ],
      "zone_lines": 1
+    },
+    {
+     "id": 2457,
+     "side": "resistance",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 4,
+     "p1": {
+      "t": 1794312000,
+      "price": 98.681
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 93.04766667
+     },
+     "slope_per_day": -0.325,
+     "zone": [
+      92.981,
+      93.04766667
+     ],
+     "zone_lines": 2
     }
    ]
   },
   "SPCXUSDT": {
-   "price": 132.37,
+   "price": 132.5,
    "atr_4h": 2.80428571,
    "bar_ts": 1795809600,
    "lines": [
@@ -630,7 +735,7 @@
       128.7365,
       131.28833333
      ],
-     "zone_lines": 5
+     "zone_lines": 6
     },
     {
      "id": 2164,
@@ -694,6 +799,27 @@
       138.15
      ],
      "zone_lines": 8
+    },
+    {
+     "id": 2297,
+     "side": "resistance",
+     "kind": "sloped",
+     "seed": false,
+     "touches": 5,
+     "p1": {
+      "t": 1793836800,
+      "price": 132.6
+     },
+     "p2": {
+      "t": 1795809600,
+      "price": 138.9705
+     },
+     "slope_per_day": 0.279,
+     "zone": [
+      138.9705,
+      139.10166667
+     ],
+     "zone_lines": 2
     }
    ]
   }
